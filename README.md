@@ -31,21 +31,30 @@
 
 ## 🛠️ Используемые технологии
 
-- **React + TypeScript**
-- **TailwindCSS**
-- **Vite**
-- **Framer Motion** – анимации
-- **Heroicons / Lucide Icons**
-- **Vercel** – хостинг
+
+  <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=000" /></a>
+  <a href="https://nextjs.org/" target="_blank"><img src="https://img.shields.io/badge/-Next.js-000?style=for-the-badge&logo=next.js&logoColor=fff" /></a>
+  <a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=fff" /></a>
+  <a href="https://vercel.com/" target="_blank"><img src="https://img.shields.io/badge/-Vercel-000?style=for-the-badge&logo=vercel&logoColor=fff" /></a>
 
 ---
 
-## ⚙️ Запуск локально
-
-### 1. Клонируй репозиторий
+# 🚀 Как запустить проект локально
 
 ```bash
-git clone https://github.com/Saidilom/unlim.git
+# Клонируем репозиторий
+git clone https://github.com/Saidilom/shop-with-admin-panel.git
 
-Перейди в директорию проекта
+# Переходим в папку проекта
 cd unlim
+
+# Устанавливаем зависимости
+npm install
+# или, если используешь Yarn:
+yarn install
+
+# Запускаем локальный сервер
+npm run dev
+# или
+yarn dev
+
